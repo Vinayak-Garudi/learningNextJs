@@ -1,0 +1,16 @@
+.indexContainer {
+    background: rgb(180, 144, 90);
+    width: 100vw;
+}
+
+.heading {
+    color: blue;
+}
+
+.heading_main {
+    text-decoration: underline;
+}
+
+.indexContainer p {
+    font-size: xx-large;
+}
