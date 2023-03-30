@@ -9,6 +9,8 @@ const nestName = () => {
       <Link href={'/'}>Home</Link>
       <div>inside {NestName}</div>
       <button onClick={() => router.push('/')}>Home</button>
+      <button onClick={() => router.push('/profile')}>Profile</button>
+      <button onClick={() => router.back()}>Back</button>
     </>
 
   )

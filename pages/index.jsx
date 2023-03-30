@@ -35,6 +35,7 @@ const index = () => {
         <div>
           <button onClick={() => router.replace('/nested/custom')}>Custom Nest</button>
           <button onClick={() => router.replace('/error')}>Error Page</button>
+          <button onClick={() => router.push('/profile')}>Profile</button>
         </div>
       </div>
     </>
